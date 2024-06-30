@@ -1,0 +1,30 @@
+.header {
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding-right: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
