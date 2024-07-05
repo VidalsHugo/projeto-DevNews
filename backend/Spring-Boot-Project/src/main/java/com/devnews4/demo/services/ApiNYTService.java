@@ -24,7 +24,7 @@ public class ApiNYTService {
 
             // Extraindo apenas os 20 primeiros itens
             StringBuilder limitedResponse = new StringBuilder("{\"results\":[");
-            int limit = Math.min(1, resultsNode.size());
+            int limit = Math.min(11, resultsNode.size());
             for (int i = 0; i < limit; i++) {
                 limitedResponse.append(resultsNode.get(i).toString());
                 if (i < limit - 1) {

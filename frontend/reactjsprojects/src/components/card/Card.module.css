@@ -1,11 +1,26 @@
-
 .card {
   border: 1px solid #ddd;
   padding: 16px;
-  width: 300px;
-  height: 250px;
+  width: 300px; /* largura fixa */
+  height: 300px; /* altura fixa */
+  margin-top: 15px;
+  margin-bottom: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espaço entre a imagem e o título */
   background-color: white; /* Adicione se necessário */
+}
+
+.card h2 {
+  font-size: large;
+  margin-top: 10px; /* Espaço acima do título */
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0; /* Ajuste para canto superior arredondado da imagem */
 }

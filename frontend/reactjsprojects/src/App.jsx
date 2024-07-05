@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './home/home';
 import AppRoutes from './routes';
 
