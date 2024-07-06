@@ -10,7 +10,7 @@ function MainSection() {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api-nyt/top-stories/technology');
+        const response = await axios.get('http://localhost:8080/api-nyt/top-stories/menu-principal');
         console.log(response.data); // Verificar estrutura do JSON no console
         const storiesData = response.data.results;
         setStories(storiesData);
