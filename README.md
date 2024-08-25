@@ -4,7 +4,7 @@ Em Desenvolvimento...
 
 Back-end: Java com Spring boot<br>
     
-    Java 17+
+    Java 21
     Spring boot
     Spring Security
     Token JWT
