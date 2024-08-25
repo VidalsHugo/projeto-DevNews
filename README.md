@@ -3,7 +3,6 @@
 Em Desenvolvimento...
 
 Back-end: Java com Spring boot<br>
-    
     Java 21
     Spring boot
     Spring Security
@@ -13,4 +12,6 @@ Back-end: Java com Spring boot<br>
     Swagger
 <br>
 Front-end: React.JS
+<br>
+    React.JS
 
