@@ -2,16 +2,16 @@
 
 Em Desenvolvimento...
 
-Back-end: Java com Spring boot<br>
-    Java 21
-    Spring boot
-    Spring Security
-    Token JWT
-    PostgreeSQL
-    NYT API
-    Swagger
+Back-end: <br><br>
+    Java 21<br>
+    Spring boot<br>
+    Spring Security<br>
+    Token JWT<br>
+    PostgreeSQL<br>
+    NYT API<br>
+    Swagger<br>
 <br>
-Front-end: React.JS
+Front-end:<br>
 <br>
     React.JS
 
