@@ -1,12 +1,14 @@
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from "./home/home";
+import LoginSection from "./login-section/login";
 
 function AppRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" Component={ <Home /> }/>
-                <Route path="/home" Component={ <Home /> }/>
+                <Route path="/" element={ <Home /> }/>
+                <Route path="/login" element={ <LoginSection /> }/>
+                <Route path="/:category" element={ <Home /> }/>
             </Routes>
         </BrowserRouter>
     );

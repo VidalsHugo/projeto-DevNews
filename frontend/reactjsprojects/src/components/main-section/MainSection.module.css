@@ -1,3 +1,10 @@
+/* Estilos globais para garantir altura total da página */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #333;
+}
 
 .mainSection {
   display: flex;

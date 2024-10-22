@@ -3,15 +3,15 @@ import axios from 'axios';
 import Card from '../card/card';
 import styles from './MainSection.module.css';
 
-function MainSection() {
+function MainSection({ category }) {
+  console.log(category)
   const [stories, setStories] = useState([]);
   const [highlightedStory, setHighlightedStory] = useState(null);
 
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api-nyt/top-stories/menu-principal');
-        console.log(response.data); // Verificar estrutura do JSON no console
+        const response = await axios.get(`http://localhost:8080/api-nyt/top-stories/${category || 'menu-principal'} `);
         const storiesData = response.data.results;
         setStories(storiesData);
         if (storiesData.length > 0) {
@@ -24,7 +24,7 @@ function MainSection() {
 
     fetchStories();
   }, []);
-
+console.log(highlightedStory)
   return (
     <div className={styles.mainSection}>
       <div className={styles.highlightedCard}>
