@@ -4,6 +4,7 @@ import Card from '../card/card';
 import styles from './MainSection.module.css';
 
 function MainSection({ category }) {
+  console.log("teste")
   console.log(category)
   const [stories, setStories] = useState([]);
   const [highlightedStory, setHighlightedStory] = useState(null);
@@ -11,7 +12,8 @@ function MainSection({ category }) {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const response = await axios.get(`http://localhost:8080/api-nyt/top-stories/${category || 'menu-principal'} `);
+        const response = await axios.get(`http://localhost:8080/api-nyt/top-stories/${category || 'home'} `);
+        console.log(response)
         const storiesData = response.data.results;
         setStories(storiesData);
         if (storiesData.length > 0) {

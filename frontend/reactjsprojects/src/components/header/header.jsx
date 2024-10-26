@@ -6,7 +6,7 @@ function Header() {
       <h1>LOGO</h1>
       <nav>
         <ul>
-        <li><Link to="/home">Home</Link></li>
+          <li><Link to="/home">Home</Link></li>
           <li><Link to="/technology">Technology</Link></li>
           <li><Link to="/arts">Arts</Link></li>
           <li><Link to="/business">Business</Link></li>
