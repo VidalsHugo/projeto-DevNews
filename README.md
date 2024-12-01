@@ -26,4 +26,4 @@ Para executar o projeto, você precisará ter instalado:
 - Java Development Kit (JDK) 21
 - Node.js
 - PostgreSQL
-- Maven ou Gradle
+- Maven
